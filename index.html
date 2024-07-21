@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <main id="wrapper" class="startup">
+            <header id="grid-header">
+                <h2>
+                    <span class="player-name pn-x">X</span>
+                    <span class="score-box" id="X-score-box">0</span>
+                    <span class="score-divider"></span>
+                    <span class="score-box" id="O-score-box">0</span>
+                    <span class="player-name pn-o">O</span>
+                </h2>
+            </header>
+            <content id="grid">
+                <div class="alert-modal">
+                    <h2 class="alert">
+                        Loading!
+                    </h2>
+                </div>
+            </content>
+        </main>
+        <div class="burst" id="br-burst"></div>
+        <div class="burst" id="tl-burst"></div>
+    </body>
+    <script src="dom.js"></script>
+    <script src="env.js"></script>
+    <script src="box.js"></script>
+    <script src="index.js"></script>
+</html>
